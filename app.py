@@ -6,6 +6,6 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
-from .src.preprocess import process
+from src.preprocess import process
 
 process()
